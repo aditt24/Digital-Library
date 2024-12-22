@@ -28,8 +28,6 @@ Perpustakaan-Digital/
 │   ├── data_pengguna.csv
 │   ├── peminjaman.csv
 │   └── pengembalian.csv
-├── assets/
-│   └── tangkapan_layar.png
 ├── README.md
 └── requirements.txt
 ```
