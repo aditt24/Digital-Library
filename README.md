@@ -8,7 +8,7 @@ Proyek ini adalah sistem perpustakaan digital berbasis web yang dirancang untuk 
 - **Manajemen Buku**:
   - **Daftar Buku**: Menampilkan koleksi berdasarkan genre.
   - **Pinjam Buku**: Validasi ketersediaan stok buku dan pencatatan peminjaman.
-  - **Kembalikan Buku**: Menghitung denda jika ada keterlambatan pengembalian.
+  - **Kembalikan Buku**: Pengembalian Buku dan Menghitung denda jika ada keterlambatan pengembalian.
   - **Sumbang Buku**: Menambahkan buku baru ke koleksi perpustakaan.
 - **Dashboard Interaktif**: Navigasi mudah melalui sidebar.
 
