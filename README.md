@@ -1,62 +1,61 @@
 # Perpustakaan Digital
 
-## Deskripsi
-Proyek ini adalah sistem perpustakaan digital berbasis web yang dirancang untuk mempermudah mahasiswa dalam mengakses koleksi buku, meminjam, mengembalikan, dan menyumbangkan buku secara online. Aplikasi ini menggunakan Streamlit sebagai framework antarmuka.
+## Description
+This project is a web-based digital library system designed to facilitate students in accessing book collections, borrowing, returning, and donating books online. This application uses Streamlit as its interface framework.
 
-## Fitur Utama
-- **Login dan Sign Up**: Sistem autentikasi dengan enkripsi kata sandi menggunakan BCrypt.
-- **Manajemen Buku**:
-  - **Daftar Buku**: Menampilkan koleksi berdasarkan genre.
-  - **Pinjam Buku**: Validasi ketersediaan stok buku dan pencatatan peminjaman.
-  - **Kembalikan Buku**: Pengembalian Buku dan Menghitung denda jika ada keterlambatan pengembalian.
-  - **Sumbang Buku**: Menambahkan buku baru ke koleksi perpustakaan.
-- **Dashboard Interaktif**: Navigasi mudah melalui sidebar.
+## Key Features
+- **Login and Sign Up**: Authentication system with password encryption using BCrypt.
+- **Book Management**:
+  - **Book List**: Displays collections by genre.
+  - **Borrow Books**: Validates book stock availability and records borrowing details.
+  - **Return Books**: Handles book returns and calculates late return fines.
+  - **Donate Books**: Adds new books to the library collection.
+- **Interactive Dashboard**: Easy navigation via sidebar.
 
-## Teknologi yang Digunakan
-- **Bahasa Pemrograman**: Python
+## Technologies Used
+- **Programming Language**: Python
 - **Framework**: Streamlit
-- **Penyimpanan Data**: CSV
-- **Enkripsi**: BCrypt untuk keamanan kata sandi
+- **Data Storage**: CSV
+- **Encryption**: BCrypt for password security
 
-## Struktur Folder
+## Folder Structure
 ```
-Perpustakaan-Digital/
+Digital-Library/
 ├── data/
-│   ├── daftar_buku.csv
-│   ├── data_pengguna.csv
-│   ├── peminjaman.csv
-│   └── pengembalian.csv
+│   ├── book_list.csv
+│   ├── user_data.csv
+│   ├── borrowing.csv
+│   └── returning.csv
 ├── src/
-│   └── projek_perpustakaan.py
+│   └── library_project.py
 ├── README.md
 └── requirements.txt
 ```
 
-## Instalasi
-1. **Clone Repository**:
+## Installation
+1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/username/Perpustakaan-Digital.git
-   cd Perpustakaan-Digital
+   git clone https://github.com/username/Digital-Library.git
+   cd Digital-Library
    ```
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-3. **Jalankan Aplikasi**:
+3. **Run the Application**:
    ```bash
-   streamlit run src/projek_perpustakaan.py
+   streamlit run src/library_project.py
    ```
 
-## Penggunaan
-1. **Login atau Sign Up**:
-   - Pengguna baru harus mendaftar dengan nama, NIM, dan kata sandi.
-   - Login dengan akun yang sudah terdaftar.
-2. **Akses Fitur**:
-   - Lihat daftar buku berdasarkan genre.
-   - Pinjam buku dengan menentukan tanggal pengembalian.
-   - Kembalikan buku dan bayar denda jika terlambat.
-   - Tambahkan buku baru ke koleksi perpustakaan.
+## Usage
+1. **Login or Sign Up**:
+   - New users must register with their name, student ID, and password.
+   - Log in with a registered account.
+2. **Access Features**:
+   - View the book list by genre.
+   - Borrow books by specifying a return date.
+   - Return books and pay fines if overdue.
+   - Add new books to the library collection.
 
-## Kontributor
+## Contributor
 - Aditya Saputra
-
