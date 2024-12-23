@@ -1,4 +1,4 @@
-# Perpustakaan Digital
+# Digital-Library
 
 ## Description
 This project is a web-based digital library system designed to facilitate students in accessing book collections, borrowing, returning, and donating books online. This application uses Streamlit as its interface framework.
