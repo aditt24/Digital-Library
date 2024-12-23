@@ -9,7 +9,6 @@ class Book:
         self.title = title
         self.date = date
 
-
 def login():
     st.title("Login Page")
 
