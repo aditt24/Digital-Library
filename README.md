@@ -22,10 +22,10 @@ This project is a web-based digital library system designed to facilitate studen
 ```
 Digital-Library/
 ├── data/
-│   ├── book_list.csv
-│   ├── user_data.csv
-│   ├── borrowing.csv
-│   └── returning.csv
+│   ├── daftar_buku.csv
+│   ├── data_pengguna.csv
+│   ├── peminjaman.csv
+│   └── pengembalian.csv
 ├── src/
 │   └── library_project.py
 ├── README.md
